@@ -1,0 +1,34 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "Skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "Skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "Skills/react.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "Skills/node.png"
+    },
+    {
+      "title": "PostgreSQL",
+      "imageSrc": "Skills/postgreSQL.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "Skills/figma.png"
+    },
+    {
+        "title": "C#",
+        "imageSrc": "Skills/c-sharp.png"
+    },
+    {
+        "title": "Docker",
+        "imageSrc": "Skills/docker.png"
+    }
+  ]
