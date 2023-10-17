@@ -1,10 +1,10 @@
 :root {
     /* Colours */
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #1a365d;
-    --color-bg: #04152d;
+    --color-text: #3d2c2c;      /* Pastel pink text color */
+    --color-primary: #ffafaf;   /* Pastel pink primary color */
+    --color-secondary: #ffa0a0; /* Pastel pink secondary color */
+    --color-dark: #a56666;      /* Slightly darker pastel pink color */
+    --color-bg: #ffebec; 
   
     /* Fonts */
     --font-roboto: "Roboto";

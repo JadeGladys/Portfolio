@@ -2,21 +2,22 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
+  background-color: rgba(179, 156, 156, 0.6);
   border-radius: 15px;
-  padding: 73px;
+  padding: 60px;
   margin-top: 110px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .title {
   color: var(--color-text);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-left: 8%;
 }
 
 .content {
@@ -26,7 +27,7 @@
 }
 
 .aboutImage {
-  width: 35%;
+  width: 40%;
 }
 
 .aboutItems {
@@ -42,10 +43,10 @@
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 25px;
+  padding: 5px;
   background-image: linear-gradient(
     90deg,
-    rgba(46, 66, 72, 0.42) 0%,
+    rgba(179, 156, 156, 0.6) 0%,
     rgba(255, 255, 255, 0) 100%
   );
   background-size: 0 100%;
@@ -60,10 +61,12 @@
 .aboutItem h3 {
   font-size: 20px;
   font-weight: 600;
+  margin-left: 5%;
 }
 
 .aboutItem p {
   font-size: 20px;
+  margin-left: 5%;
 }
 
 @media screen and (max-width: 830px) {
@@ -79,6 +82,7 @@
 
   .aboutImage {
     display: none;
+    size: 100px;
   }
 
   .aboutItems {
