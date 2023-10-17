@@ -41,9 +41,10 @@
 
 .skill {
   font-size: 20px;
+  color: white;
   font-weight: 400;
-  border-radius: 100px;
-  background: var(--color-dark);
+  border-radius: 5px;
+  background: black;
   padding: 2px 22px;
 }
 
@@ -60,6 +61,7 @@
   font-size: 22px;
   font-weight: 600;
   border-radius: 100px;
-  background: var(--color-primary);
+  background: var(--color-dark);
+
   padding: 1px 22px;
 }
