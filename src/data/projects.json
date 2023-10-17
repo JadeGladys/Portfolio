@@ -2,7 +2,8 @@
     {
       "title": "Portfolio",
       "imageSrc": "Project/hero.PNG",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This is a portfolio project made for portraying my skills and experience...",
+      "moredes": "This is a portfolio project made for portraying m skills and experience as a software dev. To create this I used reactJS and css to create a responsive and simple web-page",
       "skills": ["React", "Node", "css", "html"],
       "demo": "https://jadegladys.netlify.app/",
       "source": "https://github.com/JadeGladys/Portfolio"
@@ -10,7 +11,8 @@
     {
       "title": "Shelter Managment System",
       "imageSrc": "Project/home.PNG",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This is a was a final project for my webtech class. This web app is a... ",
+      "moredes": "This is a was a final project for my webtech class. This web app is a shelter management system which allows pet lovers to adopt a pet after viewing it's description or pet owners to surrender their pets when they can't keep them anymore.",
       "skills": ["Java", "JS", "Css", "html"],
       "demo": "https://www.example.com",
       "source": "https://github.com/JadeGladys/PAWS"
@@ -19,6 +21,7 @@
       "title": "Project C",
       "imageSrc": "Project/login.PNG",
       "description": "This is a project made to learn the latest languages by building an app.",
+      "moredes": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"

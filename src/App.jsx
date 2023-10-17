@@ -1,22 +1,22 @@
 
 import styles from './App.module.css'
-import { Navbar } from './components/Navbar/Navbar'
-import { Hero } from './components/Hero/Hero'
-import { About } from './components/About/About'
-import { Experience } from './components/Experience/Experience'
-import { Projects } from './components/Projects/Projects'
-import { Contact } from './components/Contact/Contact'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Details from './pages/Details'
+import NoPage from './pages/NoPage'
 
 function App() {
 
   return (
     <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/details' element={<Details />} />
+          <Route path='*' element={<NoPage/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../Projects/ProjectCard.module.css'
+import { Link } from 'react-router-dom';
 import { getImageUrl } from '../../utils'
 
 export const ProjectCard = ({
@@ -13,7 +14,7 @@ export const ProjectCard = ({
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
+      <p className={styles.description}>{description}<Link to="/details">more</Link></p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => {
           return (
