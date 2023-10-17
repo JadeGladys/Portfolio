@@ -1,23 +1,23 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "Project/project.png",
+      "title": "Portfolio",
+      "imageSrc": "Project/hero.PNG",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "skills": ["React", "Node", "css", "html"],
+      "demo": "https://jadegladys.netlify.app/",
+      "source": "https://github.com/JadeGladys/Portfolio"
     },
     {
-      "title": "Project B",
-      "imageSrc": "Project/project.png",
+      "title": "Shelter Managment System",
+      "imageSrc": "Project/home.PNG",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
+      "skills": ["Java", "JS", "Css", "html"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/JadeGladys/PAWS"
     },
     {
       "title": "Project C",
-      "imageSrc": "Project/project.png",
+      "imageSrc": "Project/login.PNG",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
