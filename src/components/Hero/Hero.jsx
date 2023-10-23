@@ -7,8 +7,8 @@ export const Hero = () => {
     <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm Jade</h1>
-            <p className={styles.description}>I'm a full-stack developer with 5 years of experience using React and
-               NodeJS. Reach out if you'd like to learn more!</p>
+            <p className={styles.description}>Full-stack developer with React, Nest, and Node.js expertise. 
+            On the verge of completing a BSc in Software Engineering. Crafting digital magic!</p>
             <a className={styles.contactBtn} href='mailto:jade.isimbi.b@gmail.com'>Contact me</a>
         </div>
         <img className={styles.heroImg} src={getImageUrl("Hero/heroImage.png")} alt='Hero Image of me' />

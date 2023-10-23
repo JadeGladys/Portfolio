@@ -11,7 +11,7 @@ export const Contact = () => {
           <ul className={styles.links}>
             <li className={styles.link}>
               <img src={getImageUrl("Contact/emailIcon.png")} alt="Email icon" />
-              <a href="mailto:jade.isimbi.b@gmail.com">jade.isimbi.b@gmail.com</a>
+              <a href="mailto:gladysjade9@gmail.com">gladysjade9@gmail.com</a>
             </li>
             <li className={styles.link}>
               <img

@@ -1,29 +1,22 @@
 [
     {
-      "role": "Software Engineer",
-      "organisation": "Google",
-      "startDate": "Sept, 2022",
+      "role": "Software Engineer Intern",
+      "organisation": "REG",
+      "startDate": "May, 2023",
       "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "History/google.png"
+      "experiences": ["Worked on vehicle fleet management system", "Designed, modelled and created the backend", "Helped design the UI with figma"],
+      "imageSrc": "History/reg (1).png"
     },
     {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "History/microsoft.png"
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
-      "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
-      ],
-      "imageSrc": "History/netflix.png"
+      "role": "Software Engineer Intern",
+      "organisation": "Africlouds",
+      "startDate": "Mar, 2022",
+      "endDate": "Jan, 2023",
+      "experiences": ["ERP infrastructure set up", "ERP installation and testing", "Configuration and customization of a preschool’s ERP Software"],
+      "imageSrc": "History/africlouds.PNG"
     }
   ]
+
+
+
+  

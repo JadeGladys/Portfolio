@@ -18,10 +18,10 @@
       "source": "https://github.com/JadeGladys/PAWS"
     },
     {
-      "title": "Project C",
-      "imageSrc": "Project/login.PNG",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "moredes": "This is a project made to learn the latest languages by building an app.",
+      "title": "LifeLink",
+      "imageSrc": "Project/lifeLink.PNG",
+      "description": "The is a project made to optimize blood and organ donation by creating a...",
+      "moredes": "The is a project made to optimize blood and organ donation by creating a platform that connects donors and recipients more efficiently. The platform will allow donors to register their blood type and organ compatibility, along with their availability to donate. Recipients can register their blood type and organ compatibility, along with their urgent need for a donation.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
