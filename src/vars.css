@@ -1,10 +1,15 @@
 :root {
     /* Colours */
-    --color-text: #3d2c2c;      /* Pastel pink text color */
-    --color-primary: #ffafaf;   /* Pastel pink primary color */
-    --color-secondary: #ffa0a0; /* Pastel pink secondary color */
-    --color-dark: #a56666;      /* Slightly darker pastel pink color */
-    --color-bg: #ffebec; 
+    --color-text: #e6f2ea;
+    --color-text-muted: #a7c0b2;
+    --color-primary: #2e8b57;
+    --color-secondary: #0f1e18;
+    --color-dark: #0a1913;
+    --color-bg: #0b1611;
+    --color-surface: #0f1d17;
+    --color-surface-strong: #13251d;
+    --color-border: #1c3327;
+    --color-accent: #2e8b57;
   
     /* Fonts */
     --font-roboto: "Roboto";

@@ -6,121 +6,141 @@
     margin-left: 5%;
     margin-right: 5%;
   }
-  
+
+  .headerRow {
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 6px;
+  }
+
   .title {
     color: var(--color-text);
-    font-size: 35px;
+    font-size: 36px;
     font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
-    margin-left: 8%;
+    letter-spacing: 0.5px;
   }
-  
-  .content {
+
+  .subtitle {
+    color: var(--color-text-muted);
+    font-size: 16px;
+  }
+
+  .metrics {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 5%;
+    gap: 12px;
   }
-  
-  .skills {
-    width: 45%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-  }
-  
-  .skill {
+
+  .metric {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 11px;
+    padding: 12px 16px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    min-width: 90px;
   }
-  
-  .skillImageContainer {
-    /* background-color: var(--color-secondary);
-    border-radius: 100%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 120px;
-    height: 120px;
-  }
-  
-  .skillImageContainer img {
-    width: 75px;
-  }
-  
-  .skill p {
-    font-size: 18px;
-    font-family: var(--font-roboto);
-    font-weight: 500;
-  }
-  
-  .history {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 20px;
-  }
-  
-  .historyItem {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 17px;
-    background: rgba(46, 66, 72, 0.42);
-    background: linear-gradient(
-      90deg, 
-      rgba(179, 156, 156, 0.6) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    border-radius: 10px;
-    padding: 24px;
-  }
-  
-  .historyItem img {
-    width: 50px;
-  }
-  
-  .historyItemDetails {
-    font-family: var(--font-roboto);
-  }
-  
-  .historyItemDetails h3 {
-    font-size: 25px;
-    font-weight: 500;
-  }
-  
-  .historyItemDetails p {
+
+  .metricValue {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 700;
   }
-  
-  .historyItemDetails ul {
-    margin-top: 6px;
-    list-style-position: inherit;
-    font-size: 18px;
-    list-style-type: disc;
-    margin-left: 17px;
+
+  .metricLabel {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-text-muted);
+  }
+
+  .floatingStage {
+    position: relative;
+    margin: 32px 8% 0;
+    height: 360px;
+    border-radius: 28px;
+    border: 1px solid var(--color-border);
+    background: radial-gradient(circle at 20% 20%, rgba(46, 139, 87, 0.15), transparent 45%),
+      radial-gradient(circle at 80% 70%, rgba(46, 139, 87, 0.12), transparent 50%),
+      var(--color-surface);
+    box-shadow: 0 18px 40px -28px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+  }
+
+  .floatingIcon {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    border-radius: 999px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    animation: driftA 9s ease-in-out infinite;
+    filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.35));
+  }
+
+  .floatingIcon img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+  }
+
+  .floatingIcon span {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .icon0 { top: 12%; left: 12%; animation-delay: 0s; animation-name: driftA; }
+  .icon1 { top: 18%; left: 42%; animation-delay: 0.6s; animation-name: driftB; }
+  .icon2 { top: 10%; right: 14%; animation-delay: 1.2s; animation-name: driftC; }
+  .icon3 { top: 55%; left: 16%; animation-delay: 0.9s; animation-name: driftB; }
+  .icon4 { top: 60%; left: 48%; animation-delay: 1.5s; animation-name: driftA; }
+  .icon5 { top: 52%; right: 18%; animation-delay: 0.3s; animation-name: driftC; }
+  .icon6 { bottom: 10%; left: 32%; animation-delay: 1.1s; animation-name: driftB; }
+  .icon7 { bottom: 12%; right: 30%; animation-delay: 0.8s; animation-name: driftA; }
+
+  @keyframes driftA {
+    0% { transform: translate(0px, 0px); opacity: 0.9; }
+    50% { transform: translate(10px, -12px); opacity: 1; }
+    100% { transform: translate(-8px, 6px); opacity: 0.9; }
+  }
+
+  @keyframes driftB {
+    0% { transform: translate(0px, 0px); opacity: 0.85; }
+    50% { transform: translate(-12px, 10px); opacity: 1; }
+    100% { transform: translate(8px, -6px); opacity: 0.85; }
+  }
+
+  @keyframes driftC {
+    0% { transform: translate(0px, 0px); opacity: 0.88; }
+    50% { transform: translate(8px, 12px); opacity: 1; }
+    100% { transform: translate(-10px, -8px); opacity: 0.88; }
   }
   
   @media screen and (max-width: 830px) {
-    .content {
+    .headerRow {
       flex-direction: column;
-      align-items: center;
-      gap: 34px;
+      align-items: flex-start;
+      gap: 16px;
     }
-  
-    .skills {
-      width: 100%;
-      flex-direction: row;
-      justify-content: center;
-    }
-  
-    .history {
-      width: 100%;
-      gap: 9px;
+
+    .floatingStage {
+      height: 420px;
     }
   }

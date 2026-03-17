@@ -12,9 +12,9 @@ export const About = () => {
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl('About/cursorIcon.png')} alt='cursor icon' />
                     <div className={styles.aboutItemText}>
-                        <h3>Frontend Developer</h3>
-                        <p>I'm a front-end developer with experience in 
-                            building responsive websites and systems
+                        <h3>Front-end Developer</h3>
+                        <p>I build accessible, responsive interfaces with React
+                            and modern CSS, focused on performance and polish.
                         </p>
                     </div>
                 </li>
@@ -22,9 +22,9 @@ export const About = () => {
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl('About/serverIcon.png')} alt='server icon' />
                     <div className={styles.aboutItemText}>
-                        <h3>Backendend Developer</h3>
-                        <p>I have experience developing fast and optimised
-                            back-end systems and APIs
+                        <h3>Back-end Developer</h3>
+                        <p>I design reliable APIs and services with clean data
+                            models, authentication, and scalable architecture.
                         </p>
                     </div>    
                 </li>
@@ -33,8 +33,8 @@ export const About = () => {
                     <img src={getImageUrl('About/uiIcon.png')} alt='ui icon' />
                     <div className={styles.aboutItemText}>    
                         <h3>UI Developer</h3>
-                        <p>I have designed multiple landing pages and have 
-                            created design systems as well
+                        <p>I translate ideas into UI/UX through wireframes,
+                            prototypes, and reusable design systems.
                         </p>
                     </div>
                 </li>

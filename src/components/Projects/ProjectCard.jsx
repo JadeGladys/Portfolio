@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { getImageUrl } from '../../utils'
 
 export const ProjectCard = ({
-    project: { title, imageSrc, description, skills, demo, source },
+    project: { title, imageSrc, description, skills, links = [] },
     }) => {
   return (
     <div className={styles.container}>
@@ -14,7 +14,10 @@ export const ProjectCard = ({
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}<Link to="/details">more</Link></p>
+      <p className={styles.description}>
+        {description}
+        <Link to="/details"> more</Link>
+      </p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => {
           return (
@@ -24,10 +27,17 @@ export const ProjectCard = ({
           );
         })}
       </ul>
-      <div className={styles.links}>
-        <a href={demo} className={styles.link}>Demo</a>
-        <a href={source} className={styles.link}>Source</a>
-      </div>
+      {links.length > 0 && (
+        <div className={styles.links}>
+          {links.map((link, id) => {
+            return (
+              <a key={id} href={link.url} className={styles.link}>
+                {link.label}
+              </a>
+            );
+          })}
+        </div>
+      )}
     </div>
   )
 }

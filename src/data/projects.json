@@ -1,29 +1,114 @@
 [
-    {
-      "title": "Portfolio",
-      "imageSrc": "Project/hero.PNG",
-      "description": "This is a portfolio project made for portraying my skills and experience...",
-      "moredes": "This is a portfolio project made for portraying m skills and experience as a software dev. To create this I used reactJS and css to create a responsive and simple web-page",
-      "skills": ["React", "Node", "css", "html"],
-      "demo": "https://jadegladys.netlify.app/",
-      "source": "https://github.com/JadeGladys/Portfolio"
-    },
-    {
-      "title": "Shelter Managment System",
-      "imageSrc": "Project/home.PNG",
-      "description": "This is a was a final project for my webtech class. This web app is a... ",
-      "moredes": "This is a was a final project for my webtech class. This web app is a shelter management system which allows pet lovers to adopt a pet after viewing it's description or pet owners to surrender their pets when they can't keep them anymore.",
-      "skills": ["Java", "JS", "Css", "html"],
-      "demo": "https://www.example.com",
-      "source": "https://github.com/JadeGladys/PAWS"
-    },
-    {
-      "title": "LifeLink",
-      "imageSrc": "Project/lifeLink.PNG",
-      "description": "The is a project made to optimize blood and organ donation by creating a...",
-      "moredes": "The is a project made to optimize blood and organ donation by creating a platform that connects donors and recipients more efficiently. The platform will allow donors to register their blood type and organ compatibility, along with their availability to donate. Recipients can register their blood type and organ compatibility, along with their urgent need for a donation.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://github.com/JadeGladys/LifeLink"
-    }
-  ]
+  {
+    "title": "Portfolio",
+    "imageSrc": "Project/hero.PNG",
+    "description": "Personal portfolio showcasing skills, projects, and experience.",
+    "moredes": "A responsive portfolio website built with React and custom CSS to present my work and experience.",
+    "skills": ["React", "Node", "CSS", "HTML"],
+    "category": "fullstack",
+    "links": [
+      { "label": "Demo", "url": "https://jadegladys.netlify.app/" },
+      { "label": "GitHub", "url": "https://github.com/JadeGladys/Portfolio" }
+    ]
+  },
+  {
+    "title": "Mindful Insights",
+    "imageSrc": "Project/mindful-login.png",
+    "description": "Full-stack wellness platform with dashboards, collaboration, and analytics.",
+    "moredes": "Mindful Insights is a full-stack platform that helps teams track engagement, collaborate, and publish research with a clean, organized dashboard experience.",
+    "skills": ["React", "Node", "Express"],
+    "category": "fullstack",
+    "links": [
+      { "label": "Demo", "url": "https://mindfulinsights-frontend.onrender.com/dashboard" },
+      { "label": "GitHub", "url": "https://github.com/JadeGladys/MindfulInsights" }
+    ]
+  },
+  {
+    "title": "Readme Exporter",
+    "imageSrc": "Project/readme-exporter.png",
+    "description": "Export README content into branded, printable formats.",
+    "moredes": "A web tool that converts README exports into styled HTML, PDF, or DOCX with branding and translation options.",
+    "skills": ["React", "Node", "UI"],
+    "category": "fullstack",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/SentiOne/readme-exporter" }
+    ]
+  },
+  {
+    "title": "Shelter Management System",
+    "imageSrc": "Project/home.PNG",
+    "description": "Shelter management system for pet adoption and surrender.",
+    "moredes": "A web app that lets adopters browse pets and owners list pets for surrender with detailed profiles.",
+    "skills": ["Java", "JS", "CSS", "HTML"],
+    "category": "fullstack",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/JadeGladys/PAWS" }
+    ]
+  },
+  {
+    "title": "LifeLink",
+    "imageSrc": "Project/lifeLink.PNG",
+    "description": "Platform connecting blood and organ donors with recipients.",
+    "moredes": "A platform that matches donors and recipients by blood type and organ compatibility, streamlining donation availability.",
+    "skills": ["React", "Express", "Node"],
+    "category": "fullstack",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/JadeGladys/LifeLink" }
+    ]
+  },
+  {
+    "title": "Checkmate",
+    "imageSrc": "Project/project.png",
+    "description": "Back-end focused project with no UI.",
+    "moredes": "A back-end focused project with core logic and services, shared via GitHub.",
+    "skills": ["Node", "API", "Backend"],
+    "category": "backend",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/JadeGladys/checkmate" }
+    ]
+  },
+  {
+    "title": "Smart Contract",
+    "imageSrc": "Project/project.png",
+    "description": "Smart contract implementation and related services.",
+    "moredes": "A smart contract project focused on core contract logic and on-chain interactions.",
+    "skills": ["Solidity", "Blockchain"],
+    "category": "backend",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/JadeGladys/smartcontract/tree/main/smart-contract" }
+    ]
+  },
+  {
+    "title": "Mindful Insights UI",
+    "imageSrc": "Project/mindful-dashboard-ui.png",
+    "description": "Dashboard UI exploration for Mindful Insights.",
+    "moredes": "UI exploration for Mindful Insights, focusing on dashboards, cards, and productivity flows.",
+    "skills": ["Figma", "UI", "Design System"],
+    "category": "ui",
+    "links": [
+      { "label": "Figma", "url": "https://www.figma.com/proto/3LVKIUjQcA4zGMLiSA83fH/Mindfil-Insights?node-id=87-929&p=f&t=YDjRApQpuxQcKgMz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=87%3A929" }
+    ]
+  },
+  {
+    "title": "Mindful Insights Login UI",
+    "imageSrc": "Project/mindful-ui.png",
+    "description": "Login UI for Mindful Insights.",
+    "moredes": "Login screen UI concept designed in Figma for Mindful Insights.",
+    "skills": ["Figma", "UI", "Branding"],
+    "category": "ui",
+    "links": [
+      { "label": "Figma", "url": "https://www.figma.com/proto/3LVKIUjQcA4zGMLiSA83fH/Mindfil-Insights?node-id=87-929&p=f&t=YDjRApQpuxQcKgMz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=87%3A929" }
+    ]
+  },
+  {
+    "title": "Prototype UI",
+    "imageSrc": "Project/prototype-ui.png",
+    "description": "Prototype UI concept and interactions.",
+    "moredes": "A UI prototype focused on layout, interaction, and component refinement.",
+    "skills": ["Figma", "UI", "Prototype"],
+    "category": "ui",
+    "links": [
+      { "label": "Figma", "url": "https://www.figma.com/proto/vkiPbKXuviVzHXflZhwwlk/Prototype?node-id=229-32&starting-point-node-id=229%3A32" }
+    ]
+  }
+]

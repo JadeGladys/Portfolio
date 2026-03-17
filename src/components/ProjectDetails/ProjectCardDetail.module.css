@@ -4,21 +4,17 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(179, 156, 156, 0.6) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
-  box-shadow: 0 16px 14px 0 #ffebec;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 10px 30px -24px rgba(0, 0, 0, 0.35);
   padding: 18px 24px;
   margin: 3%;
 }
 
 .container:hover {
-  background-size: 100% 100%;
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
 }
 
 .aboutItem {
@@ -36,8 +32,9 @@
 
 .description {
   margin-top: 6px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
+  color: var(--color-text-muted);
 }
 
 .skills {
@@ -51,28 +48,36 @@
 }
 
 .skill {
-  font-size: 20px;
-  color: white;
+  font-size: 14px;
+  color: var(--color-text);
   font-weight: 400;
   border-radius: 5px;
-  background: black;
-  padding: 2px 22px;
+  background: var(--color-border);
+  padding: 6px 12px;
 }
 
 .links {
   width: 100%;
   margin-top: 26px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 12px;
 }
 
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 600;
   border-radius: 100px;
-  background: var(--color-dark);
+  border: 1px solid var(--color-border);
+  background: transparent;
+  padding: 8px 16px;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
 
-  padding: 1px 22px;
+.link:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-accent);
+  background: var(--color-surface-strong);
 }

@@ -1,3 +1,5 @@
+@import './vars.css';
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,4 +9,14 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+*::selection {
+  background: #111111;
+  color: #ffffff;
 }

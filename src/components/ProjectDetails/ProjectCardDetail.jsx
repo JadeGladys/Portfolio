@@ -3,7 +3,7 @@ import styles from '../ProjectDetails/ProjectCardDetail.module.css'
 import { getImageUrl } from '../../utils'
 
 export const ProjectCardDetail = ({
-    project: { title, imageSrc, description, skills, moredes, demo, source },
+    project: { title, imageSrc, description, skills, moredes, links = [] },
     }) => {
     return (
         <div className={styles.container}>
@@ -22,6 +22,17 @@ export const ProjectCardDetail = ({
                             );
                             })}
                         </ul>
+                        {links.length > 0 && (
+                            <div className={styles.links}>
+                                {links.map((link, id) => {
+                                    return (
+                                        <a key={id} href={link.url} className={styles.link}>
+                                            {link.label}
+                                        </a>
+                                    );
+                                })}
+                            </div>
+                        )}
                     </div>
                 </li>
             </ul>
