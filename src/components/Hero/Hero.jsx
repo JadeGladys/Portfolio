@@ -18,7 +18,7 @@ export const Hero = () => {
           <h1 className={styles.title}>Hi, I'm Jade</h1>
           <p className={styles.description}>
             I build full-stack products with React, Nest, and Node.js, blending
-            clean architecture with thoughtful UI. Completing a BSc in Software Engineering.
+            clean architecture with thoughtful UI. Completed a BSc in Software Engineering.
           </p>
           <div className={styles.stats}>
             <div className={styles.statCard}>

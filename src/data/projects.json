@@ -4,11 +4,22 @@
     "imageSrc": "Project/hero.PNG",
     "description": "Personal portfolio showcasing skills, projects, and experience.",
     "moredes": "A responsive portfolio website built with React and custom CSS to present my work and experience.",
-    "skills": ["React", "Node", "CSS", "HTML"],
+    "skills": [
+      "React",
+      "Node",
+      "CSS",
+      "HTML"
+    ],
     "category": "fullstack",
     "links": [
-      { "label": "Demo", "url": "https://jadegladys.netlify.app/" },
-      { "label": "GitHub", "url": "https://github.com/JadeGladys/Portfolio" }
+      {
+        "label": "Demo",
+        "url": "https://jadegladys.netlify.app/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JadeGladys/Portfolio"
+      }
     ]
   },
   {
@@ -16,11 +27,21 @@
     "imageSrc": "Project/mindful-login.png",
     "description": "Full-stack wellness platform with dashboards, collaboration, and analytics.",
     "moredes": "Mindful Insights is a full-stack platform that helps teams track engagement, collaborate, and publish research with a clean, organized dashboard experience.",
-    "skills": ["React", "Node", "Express"],
+    "skills": [
+      "React",
+      "Node",
+      "Express"
+    ],
     "category": "fullstack",
     "links": [
-      { "label": "Demo", "url": "https://mindfulinsights-frontend.onrender.com/dashboard" },
-      { "label": "GitHub", "url": "https://github.com/JadeGladys/MindfulInsights" }
+      {
+        "label": "Demo",
+        "url": "https://mindfulinsights-frontend.onrender.com/dashboard"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JadeGladys/MindfulInsights"
+      }
     ]
   },
   {
@@ -28,10 +49,17 @@
     "imageSrc": "Project/readme-exporter.png",
     "description": "Export README content into branded, printable formats.",
     "moredes": "A web tool that converts README exports into styled HTML, PDF, or DOCX with branding and translation options.",
-    "skills": ["React", "Node", "UI"],
+    "skills": [
+      "React",
+      "Node",
+      "UI"
+    ],
     "category": "fullstack",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/SentiOne/readme-exporter" }
+      {
+        "label": "GitHub",
+        "url": "https://github.com/SentiOne/readme-exporter"
+      }
     ]
   },
   {
@@ -39,10 +67,18 @@
     "imageSrc": "Project/home.PNG",
     "description": "Shelter management system for pet adoption and surrender.",
     "moredes": "A web app that lets adopters browse pets and owners list pets for surrender with detailed profiles.",
-    "skills": ["Java", "JS", "CSS", "HTML"],
+    "skills": [
+      "Java",
+      "JS",
+      "CSS",
+      "HTML"
+    ],
     "category": "fullstack",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/JadeGladys/PAWS" }
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JadeGladys/PAWS"
+      }
     ]
   },
   {
@@ -50,43 +86,70 @@
     "imageSrc": "Project/lifeLink.PNG",
     "description": "Platform connecting blood and organ donors with recipients.",
     "moredes": "A platform that matches donors and recipients by blood type and organ compatibility, streamlining donation availability.",
-    "skills": ["React", "Express", "Node"],
+    "skills": [
+      "React",
+      "Express",
+      "Node"
+    ],
     "category": "fullstack",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/JadeGladys/LifeLink" }
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JadeGladys/LifeLink"
+      }
     ]
   },
   {
     "title": "Checkmate",
     "imageSrc": "Project/project.png",
     "description": "Back-end focused project with no UI.",
-    "moredes": "A back-end focused project with core logic and services, shared via GitHub.",
-    "skills": ["Node", "API", "Backend"],
+    "moredes": "A role-based task management application built with NestJS, PostgreSQL, and Docker, enabling teams to assign, track, and manage tasks efficiently",
+    "skills": [
+      "Node",
+      "API",
+      "Backend"
+    ],
     "category": "backend",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/JadeGladys/checkmate" }
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JadeGladys/checkmate"
+      }
     ]
   },
   {
     "title": "Smart Contract",
     "imageSrc": "Project/project.png",
     "description": "Smart contract implementation and related services.",
-    "moredes": "A smart contract project focused on core contract logic and on-chain interactions.",
-    "skills": ["Solidity", "Blockchain"],
+    "moredes": "This project is a backend API built with NestJS that helps organizations manage contracts from creation to expiration in a structured and controlled way.",
+    "skills": [
+      "Solidity",
+      "Blockchain"
+    ],
     "category": "backend",
     "links": [
-      { "label": "GitHub", "url": "https://github.com/JadeGladys/smartcontract/tree/main/smart-contract" }
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JadeGladys/smartcontract/tree/main/smart-contract"
+      }
     ]
   },
   {
     "title": "Mindful Insights UI",
     "imageSrc": "Project/mindful-dashboard-ui.png",
-    "description": "Dashboard UI exploration for Mindful Insights.",
-    "moredes": "UI exploration for Mindful Insights, focusing on dashboards, cards, and productivity flows.",
-    "skills": ["Figma", "UI", "Design System"],
+    "description": "Figma UI for the Mindful Insights project.",
+    "moredes": "Figma UI for the Mindful Insights project, focusing on dashboards, cards, and productivity flows.",
+    "skills": [
+      "Figma",
+      "UI",
+      "Design System"
+    ],
     "category": "ui",
     "links": [
-      { "label": "Figma", "url": "https://www.figma.com/proto/3LVKIUjQcA4zGMLiSA83fH/Mindfil-Insights?node-id=87-929&p=f&t=YDjRApQpuxQcKgMz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=87%3A929" }
+      {
+        "label": "Figma",
+        "url": "https://www.figma.com/proto/3LVKIUjQcA4zGMLiSA83fH/Mindfil-Insights?node-id=87-929&p=f&t=YDjRApQpuxQcKgMz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=87%3A929"
+      }
     ]
   },
   {
@@ -94,10 +157,17 @@
     "imageSrc": "Project/mindful-ui.png",
     "description": "Login UI for Mindful Insights.",
     "moredes": "Login screen UI concept designed in Figma for Mindful Insights.",
-    "skills": ["Figma", "UI", "Branding"],
+    "skills": [
+      "Figma",
+      "UI",
+      "Branding"
+    ],
     "category": "ui",
     "links": [
-      { "label": "Figma", "url": "https://www.figma.com/proto/3LVKIUjQcA4zGMLiSA83fH/Mindfil-Insights?node-id=87-929&p=f&t=YDjRApQpuxQcKgMz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=87%3A929" }
+      {
+        "label": "Figma",
+        "url": "https://www.figma.com/proto/3LVKIUjQcA4zGMLiSA83fH/Mindfil-Insights?node-id=87-929&p=f&t=YDjRApQpuxQcKgMz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=87%3A929"
+      }
     ]
   },
   {
@@ -105,10 +175,17 @@
     "imageSrc": "Project/prototype-ui.png",
     "description": "Prototype UI concept and interactions.",
     "moredes": "A UI prototype focused on layout, interaction, and component refinement.",
-    "skills": ["Figma", "UI", "Prototype"],
+    "skills": [
+      "Figma",
+      "UI",
+      "Prototype"
+    ],
     "category": "ui",
     "links": [
-      { "label": "Figma", "url": "https://www.figma.com/proto/vkiPbKXuviVzHXflZhwwlk/Prototype?node-id=229-32&starting-point-node-id=229%3A32" }
+      {
+        "label": "Figma",
+        "url": "https://www.figma.com/proto/vkiPbKXuviVzHXflZhwwlk/Prototype?node-id=229-32&starting-point-node-id=229%3A32"
+      }
     ]
   }
 ]
