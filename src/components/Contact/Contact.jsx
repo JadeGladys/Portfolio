@@ -1,30 +1,32 @@
 import React from 'react'
 import styles from './Contact.module.css'
-import { getImageUrl } from '../../utils'
 
 export const Contact = () => {
-    return (
-        <footer id="contact" className={styles.container}>
-          <div className={styles.text}>
-            <h2>Contact</h2>
-          </div>
-          <ul className={styles.links}>
-            <li className={styles.link}>
-              <img src={getImageUrl("Contact/emailIcon.png")} alt="Email icon" />
-              <a href="mailto:gladysjade9@gmail.com">gladysjade9@gmail.com</a>
-            </li>
-            <li className={styles.link}>
-              <img
-                src={getImageUrl("Contact/linkedinIcon.png")}
-                alt="LinkedIn icon"
-              />
-              <a href="https://www.linkedin.com/in/gladys-jade-isimbi-1ab7541bb/">linkedin.com/Jade</a>
-            </li>
-            <li className={styles.link}>
-              <img src={getImageUrl("Contact/githubIcon.png")} alt="Github icon" />
-              <a href="https://github.com/JadeGladys">github.com/Jade</a>
-            </li>
+  return (
+    <footer id="contact" className={styles.container}>
+      <div className={styles.content}>
+        <div className={styles.legals}>
+          <h2>Legals</h2>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects I have worked on</a></li>
           </ul>
-        </footer>
+        </div>
+        <div className={styles.blurb}>
+          <p>
+            Thanks for visiting my portfolio. If you’d like to collaborate or
+            learn more about my work, reach out anytime through the links below.
+          </p>
+        </div>
+      </div>
+      <div className={styles.bottomRow}>
+        <p>©2025 All Rights Reserved. Jade Gladys</p>
+        <div className={styles.iconLinks}>
+          <a href="mailto:gladys.jade.isimbi@gmail.com" aria-label="Email">Email</a>
+          <a href="https://www.linkedin.com/in/gladys-jade-isimbi-1ab7541bb/" aria-label="LinkedIn">LinkedIn</a>
+          <a href="https://github.com/JadeGladys" aria-label="GitHub">GitHub</a>
+        </div>
+      </div>
+    </footer>
   )
 }

@@ -4,7 +4,7 @@ import { getImageUrl } from '../../utils'
 
 export const ProjectCardDetail = ({
     project: { title, imageSrc, description, skills, moredes, links = [] },
-    }) => {
+}) => {
     return (
         <div className={styles.container}>
             <ul className={styles.aboutItems}>
@@ -15,11 +15,11 @@ export const ProjectCardDetail = ({
                         <p className={styles.description}>{moredes}</p>
                         <ul className={styles.skills}>
                             {skills.map((skill, id) => {
-                            return (
-                                <li key={id} className={styles.skill}>
-                                {skill}
-                                </li>
-                            );
+                                return (
+                                    <li key={id} className={styles.skill}>
+                                        {skill}
+                                    </li>
+                                );
                             })}
                         </ul>
                         {links.length > 0 && (
@@ -39,15 +39,3 @@ export const ProjectCardDetail = ({
         </div>
     )
 }
-
-{/* <ul className={styles.aboutItems}>
-                <li className={styles.aboutItem}>
-                    <img src={getImageUrl('About/cursorIcon.png')} alt='cursor icon' />
-                    <div className={styles.aboutItemText}>
-                        <h3>Frontend Developer</h3>
-                        <p>I'm a front-end developer with experience in 
-                            building responsive websites and systems
-                        </p>
-                    </div>
-                </li>
-                </ul> */}

@@ -6,59 +6,97 @@
   background-color: var(--color-surface);
   border-top: 1px solid var(--color-border);
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100vw;
-  padding: 58px 10%;
+  padding: 64px 10% 36px;
+  gap: 32px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+}
+
+.legals h2 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  color: var(--color-accent);
+}
+
+.legals ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
-.text h2 {
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: 4px;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  list-style: none;
-  gap: 26px;
-}
-
-.link {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.link a {
+.legals a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  transition: color 0.2s ease;
+  font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
-.link a:hover{
+.legals a:hover {
   color: var(--color-text-muted);
+}
+
+.blurb p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+  max-width: 520px;
+}
+
+.bottomRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--color-border);
+  padding-top: 18px;
+  font-size: 12px;
+  color: rgba(230, 242, 234, 0.75);
+}
+
+.iconLinks {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.iconLinks a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 6px 10px;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.iconLinks a:hover {
+  border-color: var(--color-accent);
+  background: rgba(46, 139, 87, 0.15);
 }
 
 @media screen and (max-width: 830px) {
   .container {
-    flex-direction: column;
     gap: 23px;
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .content {
+    grid-template-columns: 1fr;
   }
 
-  .links {
-    align-items: center;
+  .bottomRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
   }
 }
