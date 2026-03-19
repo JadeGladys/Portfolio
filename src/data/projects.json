@@ -50,9 +50,9 @@
     "description": "Export README content into branded, printable formats.",
     "moredes": "A web tool that converts README exports into styled HTML, PDF, or DOCX with branding and translation options.",
     "skills": [
-      "React",
-      "Node",
-      "UI"
+      "Python",
+      "FastAPI",
+      "HTML"
     ],
     "category": "fullstack",
     "links": [
