@@ -23,6 +23,47 @@
     ]
   },
   {
+    "title": "Readme Exporter",
+    "imageSrc": "Project/readme-exporter.png",
+    "description": "Export README content into branded, printable formats.",
+    "moredes": "A web tool that converts README exports into styled HTML, PDF, or DOCX with branding and translation options.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "HTML"
+    ],
+    "category": "fullstack",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/SentiOne/readme-exporter"
+      }
+    ]
+  },
+  {
+    "title": "Job Managament System",
+    "imageSrc": "Project/job-mng-system.png",
+    "description": "Full-stack wellness platform with dashboards, collaboration, and analytics.",
+    "moredes": "Mindful Insights is a full-stack platform that helps teams track engagement, collaborate, and publish research with a clean, organized dashboard experience.",
+    "skills": [
+      "React",
+      "Node",
+      "Express",
+      "TypeScript"
+    ],
+    "category": "fullstack",
+    "links": [
+      {
+        "label": "Demo",
+        "url": "https://job-mng-system-frontend.onrender.com/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JadeGladys/job-mng-system"
+      }
+    ]
+  },
+  {
     "title": "Mindful Insights",
     "imageSrc": "Project/mindful-login.png",
     "description": "Full-stack wellness platform with dashboards, collaboration, and analytics.",
@@ -41,24 +82,6 @@
       {
         "label": "GitHub",
         "url": "https://github.com/JadeGladys/MindfulInsights"
-      }
-    ]
-  },
-  {
-    "title": "Readme Exporter",
-    "imageSrc": "Project/readme-exporter.png",
-    "description": "Export README content into branded, printable formats.",
-    "moredes": "A web tool that converts README exports into styled HTML, PDF, or DOCX with branding and translation options.",
-    "skills": [
-      "Python",
-      "FastAPI",
-      "HTML"
-    ],
-    "category": "fullstack",
-    "links": [
-      {
-        "label": "GitHub",
-        "url": "https://github.com/SentiOne/readme-exporter"
       }
     ]
   },
