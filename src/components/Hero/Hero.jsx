@@ -17,8 +17,12 @@ export const Hero = () => {
           <p className={styles.eyebrow}>Full-stack Developer</p>
           <h1 className={styles.title}>Hi, I'm Jade</h1>
           <p className={styles.description}>
-            I build full-stack products with React, Nest, and Node.js, blending
-            clean architecture with thoughtful UI. Completed a BSc in Software Engineering.
+            Software engineer with experience building web applications,
+            APIs, and automation workflows using React, TypeScript, Python/FastAPI, Node.js, and NestJS.
+            Experienced with authentication systems, SQL and NoSQL databases, Dockerized environments,
+            debugging, and backend validation. Built AI-assisted document processing workflows and
+            developed full-stack projects with a focus on correctness, edge cases, maintainable code,
+            and clear technical reasoning.
           </p>
           <div className={styles.stats}>
             <div className={styles.statCard}>

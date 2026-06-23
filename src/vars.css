@@ -13,4 +13,8 @@
   
     /* Fonts */
     --font-roboto: "Roboto";
+
+    /* Shared layout */
+    --section-inset: 10%;
+    --section-inset-mobile: 6%;
   }

@@ -2,8 +2,8 @@
   {
     "title": "Portfolio",
     "imageSrc": "Project/hero.PNG",
-    "description": "Personal portfolio showcasing skills, projects, and experience.",
-    "moredes": "A responsive portfolio website built with React and custom CSS to present my work and experience.",
+    "description": "Personal portfolio site showcasing my projects, skills, and experience.",
+    "moredes": "A responsive personal portfolio built with React and custom CSS, deployed on Netlify, to present my projects, skills, and experience in one place.",
     "skills": [
       "React",
       "Node",
@@ -25,8 +25,8 @@
   {
     "title": "Readme Exporter",
     "imageSrc": "Project/readme-exporter.png",
-    "description": "Export README content into branded, printable formats.",
-    "moredes": "A web tool that converts README exports into styled HTML, PDF, or DOCX with branding and translation options.",
+    "description": "Exports and translates README content into branded, printable formats.",
+    "moredes": "A FastAPI-powered tool that converts README files into styled, branded documents, exporting to HTML, PDF, or DOCX, with built-in translation so documentation can be shared in multiple languages outside of GitHub.",
     "skills": [
       "Python",
       "FastAPI",
@@ -41,10 +41,10 @@
     ]
   },
   {
-    "title": "Job Managament System",
+    "title": "Job Management System",
     "imageSrc": "Project/job-mng-system.png",
-    "description": "Full-stack wellness platform with dashboards, collaboration, and analytics.",
-    "moredes": "Mindful Insights is a full-stack platform that helps teams track engagement, collaborate, and publish research with a clean, organized dashboard experience.",
+    "description": "Full-stack job board with AI-assisted candidate screening.",
+    "moredes": "A full-stack job board platform built with React, TypeScript, Node.js, Express, and PostgreSQL. Features JWT authentication, role-based access control, an admin dashboard, and AI-assisted candidate screening with a keyword-matching fallback.",
     "skills": [
       "React",
       "Node",
@@ -67,7 +67,7 @@
     "title": "Mindful Insights",
     "imageSrc": "Project/mindful-login.png",
     "description": "Full-stack wellness platform with dashboards, collaboration, and analytics.",
-    "moredes": "Mindful Insights is a full-stack platform that helps teams track engagement, collaborate, and publish research with a clean, organized dashboard experience.",
+    "moredes": "A full-stack wellness platform that helps teams track engagement, collaborate, and publish research through a clean, organized dashboard experience.",
     "skills": [
       "React",
       "Node",
@@ -89,7 +89,7 @@
     "title": "Shelter Management System",
     "imageSrc": "Project/home.PNG",
     "description": "Shelter management system for pet adoption and surrender.",
-    "moredes": "A web app that lets adopters browse pets and owners list pets for surrender with detailed profiles.",
+    "moredes": "A Spring MVC web app where adopters can browse available pets and shelters can list animals for surrender, each with detailed, searchable profiles.",
     "skills": [
       "Java",
       "JS",
@@ -108,7 +108,7 @@
     "title": "LifeLink",
     "imageSrc": "Project/lifeLink.PNG",
     "description": "Platform connecting blood and organ donors with recipients.",
-    "moredes": "A platform that matches donors and recipients by blood type and organ compatibility, streamlining donation availability.",
+    "moredes": "A full-stack platform built with React, Node, and Express that matches donors and recipients by blood type and organ compatibility, streamlining donation availability and outreach.",
     "skills": [
       "React",
       "Express",
@@ -125,8 +125,8 @@
   {
     "title": "Checkmate",
     "imageSrc": "Project/project.png",
-    "description": "Back-end focused project with no UI.",
-    "moredes": "A role-based task management application built with NestJS, PostgreSQL, and Docker, enabling teams to assign, track, and manage tasks efficiently",
+    "description": "Back-end task management API with role-based access.",
+    "moredes": "A role-based task management API built with NestJS, PostgreSQL, and Docker, letting teams assign, track, and manage tasks through a structured backend service.",
     "skills": [
       "Node",
       "API",
@@ -143,11 +143,12 @@
   {
     "title": "Smart Contract",
     "imageSrc": "Project/project.png",
-    "description": "Smart contract implementation and related services.",
-    "moredes": "This project is a backend API built with NestJS that helps organizations manage contracts from creation to expiration in a structured and controlled way.",
+    "description": "Backend API for managing contracts from creation to expiration.",
+    "moredes": "A contract management backend built with NestJS, TypeORM, and PostgreSQL, helping organizations create, track, and manage contracts through a structured, auditable lifecycle.",
     "skills": [
-      "Solidity",
-      "Blockchain"
+      "NestJS",
+      "PostgreSQL",
+      "TypeORM"
     ],
     "category": "backend",
     "links": [
@@ -160,8 +161,8 @@
   {
     "title": "Mindful Insights UI",
     "imageSrc": "Project/mindful-dashboard-ui.png",
-    "description": "Figma UI for the Mindful Insights project.",
-    "moredes": "Figma UI for the Mindful Insights project, focusing on dashboards, cards, and productivity flows.",
+    "description": "Figma UI for the Mindful Insights dashboard.",
+    "moredes": "Figma UI design for Mindful Insights, focused on dashboard layouts, card components, and productivity-oriented flows.",
     "skills": [
       "Figma",
       "UI",
@@ -178,8 +179,8 @@
   {
     "title": "Mindful Insights Login UI",
     "imageSrc": "Project/mindful-ui.png",
-    "description": "Login UI for Mindful Insights.",
-    "moredes": "Login screen UI concept designed in Figma for Mindful Insights.",
+    "description": "Login screen UI concept for Mindful Insights.",
+    "moredes": "A Figma concept for the Mindful Insights login screen, exploring branding and a clean authentication flow.",
     "skills": [
       "Figma",
       "UI",
@@ -196,8 +197,8 @@
   {
     "title": "Prototype UI",
     "imageSrc": "Project/prototype-ui.png",
-    "description": "Prototype UI concept and interactions.",
-    "moredes": "A UI prototype focused on layout, interaction, and component refinement.",
+    "description": "UI prototype exploring layout and interaction design.",
+    "moredes": "A Figma prototype focused on layout, interaction patterns, and component refinement.",
     "skills": [
       "Figma",
       "UI",

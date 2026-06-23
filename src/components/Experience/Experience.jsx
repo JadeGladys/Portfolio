@@ -26,7 +26,7 @@ export const Experience = () => {
       <div className={styles.floatingStage}>
         {skills.map((skill, id) => {
           return (
-            <div key={id} className={`${styles.floatingIcon} ${styles[`icon${id % 8}`]}`}>
+            <div key={id} className={styles.floatingIcon}>
               <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
               <span>{skill.title}</span>
             </div>

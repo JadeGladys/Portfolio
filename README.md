@@ -23,15 +23,17 @@ If you'd like to get in touch with me, the "Contact" section provides my contact
 Getting Started
 
 
+This project uses Vite, not Create React App, so the commands differ slightly from a typical React tutorial.
+
 To run this project locally, follow these steps:
 
 1.	Clone the repository to your local machine:
 
-git clone https://github.com/your-username/your-portfolio.git 
+git clone https://github.com/JadeGladys/Portfolio.git 
 
 2.	Navigate to the project directory:
 
-cd your-portfolio 
+cd Portfolio 
 
 3.	Install the required dependencies:
 
@@ -39,16 +41,14 @@ npm install
  
 4.	Start the development server:
 
-npm start
+npm run dev
  
-5.	Open your web browser and visit http://localhost:3000 to view your portfolio.
+5.	Open your web browser and visit http://localhost:5173 to view your portfolio.
 Customization
 You can easily customize this portfolio to make it your own:
-•	Update the content: Edit the skills.json file to add your skills, experiences, and projects.
-•	Add your own images: Replace the sample images in the public directory with images of your work or projects.
-•	Modify the CSS: Adjust the styles by editing the CSS files in the src directory to match your design 
-
-preferences.
+•	Update the content: Edit the JSON files in src/data (projects.json, skills.json) to add your own projects and skills.
+•	Add your own images: Replace the images in the assets directory (referenced via src/utils.js) with images of your work or projects.
+•	Modify the CSS: Adjust the styles by editing the .module.css files next to each component in src/components, or the shared colours/spacing in src/vars.css.
 
 Deployment
 

@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100vw;
-  padding: 64px 10% 36px;
+  padding: 64px var(--section-inset) 36px;
   gap: 32px;
 }
 
@@ -87,6 +87,8 @@
 
 @media screen and (max-width: 830px) {
   .container {
+    padding-left: var(--section-inset-mobile);
+    padding-right: var(--section-inset-mobile);
     gap: 23px;
   }
 
